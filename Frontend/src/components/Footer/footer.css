@@ -1,0 +1,27 @@
+.footer {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background: var(--primary-color);
+}
+.footer__text {
+    line-height: 30px;
+    color:#ffffffb2
+}
+.footer__pick-links ul li {
+    background: var(--primary-color);
+}
+.list-group-item {
+    background: var(--primary-color);
+    color:#ffffffb2
+}
+.footer__pick-links ul li a{
+    color:#ffffffb2
+}
+.quick__links-title {
+    margin-bottom:20px;
+    color:#fff;
+    font-size: 1.1rem;
+}
+.footer__contact li {
+    color: #ffffffb2;
+}

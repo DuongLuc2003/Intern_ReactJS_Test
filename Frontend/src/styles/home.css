@@ -1,0 +1,51 @@
+.hero__section{
+    background: var(--hero-bg);
+}
+.hero__content h2{
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-right: 20px 0px;
+}
+.hero__content p {
+    font-size: 1rem;
+    color: var(--primary-color);
+    line-height:28px
+};
+.hero__content, .buy__btn {
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 40px;
+    background: var(--primary-color)
+}
+.hero__content {
+    padding-top: 45px;
+}
+.timer_count {
+    background: var(--primary-color);
+    height: 300px;
+}
+.timer_count img{
+    width: 70% !important;
+    height: 70% !important;
+    object-fit: contain;
+}
+.store__btn {
+    background: #fff;
+    color: var(--primary-color);
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.store__btn a:hover{
+    color: var(--primary-color);
+}
+.text-end {
+    display: flex;
+    justify-content: flex-end;
+}
